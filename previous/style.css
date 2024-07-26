@@ -1,0 +1,65 @@
+/*@font-face {
+    font-family: obaid;
+    src: url('https://github.com/adobe-fonts/source-sans/raw/release/OTF/SourceSans3-Black.otf');
+}
+body {
+    font-family: obaid; /*modern format*/
+/*
+p{
+    color: red;
+    font-size: 18px;
+    line-height: 1.2;
+    /*letter - spacing :10px*/
+    /*word-space: 10px;*/
+    /* text-align: right;
+            }
+            body
+            {
+                font-family: "Teachers", sans-serif;
+            } */
+
+
+body {
+    font-family: "Teachers";
+}
+
+.box{
+    border: 3px solid black;
+    height: 200px;
+    width: 200px;
+    box-sizing: border-box;
+    padding: 10px 0 0 20px;
+}
+
+button{
+
+    padding: 6px 12px;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: bla;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.red{
+    background-color: red;
+    margin-top: 25px;
+    padding: 10px;
+    
+}
+.red button{
+    background-color: aliceblue;
+    color: black;
+
+}
+
+.yellow{
+    background-color: yellowgreen;
+    margin-top: 25px;
+    padding: 10px 0 0 20px;
+}
+.yellow button{
+    background-color: black;
+    color: white;
+
+}
